@@ -2,11 +2,11 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(number)
-  if number.to_i % 3 && number.to_i % 5 == Integer
+  if number.to_i / 3 == 0 && number.to_i / 5 == 0 
     puts "FizzBuzz"
-  elsif number.to_i % 5 == Integer
+  elsif number.to_i % 5 == 0
     puts "Buzz"
-  elsif number.to_i % 3 == Integer
+  elsif number.to_i % 3 == 0
     puts "Fizz"
   else 
     puts "number is not divisible by 3 or 5"
