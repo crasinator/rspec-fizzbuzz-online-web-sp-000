@@ -9,6 +9,6 @@ def fizzbuzz(number)
   elsif number.to_i % 3 == 0
     puts "Fizz"
   else 
-    puts "number is not divisible by 3 or 5"
+    puts "#{number.to_i} is not divisible by 3 or 5"
   end
 end
