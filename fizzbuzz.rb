@@ -3,10 +3,11 @@
 
 def fizzbuzz(number)
   if number / 3 && number / 5 == Integer
-    puts "fizzbuzz"
+    puts "FizzBuzz"
   elsif number / 5 == Integer
     puts "Buzz"
   elsif number / 3 == Integer
     puts "Fizz"
-  end
+  else 
+    puts "number is not divisible by 3 or 5"
 end
