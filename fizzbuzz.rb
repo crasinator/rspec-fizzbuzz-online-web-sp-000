@@ -3,12 +3,12 @@
 
 def fizzbuzz(number)
   if number.to_i % 3 == 0 && number.to_i % 5 == 0 
-    puts "FizzBuzz"
+    return "FizzBuzz"
   elsif number.to_i % 5 == 0
-    puts "Buzz"
+    return "Buzz"
   elsif number.to_i % 3 == 0
-    puts "Fizz"
+    return "Fizz"
   else 
-    puts "#{number.to_i} is not divisible by 3 or 5"
+    return "#{number.to_i} is not divisible by 3 or 5"
   end
 end
